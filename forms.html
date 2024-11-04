@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <link rel="shortcut icon" href="assets/images/logo1.jpg" type="image/x-icon">
+
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+
+    <form action="">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name" required><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname"placeholder="Enter your surname" required><br><br>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required><br><br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob" id="dob"><br><br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other"><br><br>
+
+        <label for="course">Course</label>
+        <select name="course" id="course">
+            <option value="react">React Js</option>
+            <option value="ds">DataScience</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="dja">Django</option>
+            <option value="lar">Laravel</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass"><br><br>
+        <label for="pic">Upload Profile Pic</label>
+        <input type="file" name="pic" id="pic"><br><br>
+        
+        <input type="submit" value="Register Here!"><br>
+    </form>
+</body>
+</html>

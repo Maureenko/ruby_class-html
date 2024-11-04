@@ -1,0 +1,29 @@
+.cars{
+    background-color: aqua;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+
+.fruits{
+    background-color: rgb(250, 92, 153);
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+
+#wanafunzi{
+    background-color: pink;
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    float: left;
+}
